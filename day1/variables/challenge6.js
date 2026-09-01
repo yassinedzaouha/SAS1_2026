@@ -1,5 +1,5 @@
 let prompt = require("prompt-sync")();
-let score1 = Number(prompt("donner score partie 1: "))
+let score1 = prompt("donner score partie 1: ")
 let score2 = Number(prompt("donner score partie 2: "))
 let score3 = Number(prompt("donner score partie 3: "))
 let score4 = Number(prompt("donner score partie 4: "))
