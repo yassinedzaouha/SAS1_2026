@@ -8,7 +8,7 @@ if(commandeMantant >= 500 ){
     livraison = 0
 }
 else {
-    console.log("livraison : gratuite")
+    console.log("livraison : 40")
     livraison = 40
 }
 
