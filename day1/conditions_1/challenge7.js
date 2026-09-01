@@ -28,5 +28,5 @@ switch (num) {
         console.log("Numéro invalide.")
 }
 if(day){
-    console.log("jour : ",day)
+    console.log("le jour est : ",day)
 }
