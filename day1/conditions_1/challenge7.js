@@ -26,6 +26,7 @@ switch (num) {
         day = "Sunday";
     default :
         console.log("Numéro invalide.")
+        break;
 }
 if(day){
     console.log("le jour est : ",day)
