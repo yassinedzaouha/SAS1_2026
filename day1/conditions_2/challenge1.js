@@ -17,7 +17,3 @@ if (livraison) {
   console.log("livraison :", livraison);
   console.log("total a psyer : ", commandeM + livraison, "DH");
 }
-let i;
-for(i = 0;i <= 5 ; i++){
-    console.log(i)
-}
