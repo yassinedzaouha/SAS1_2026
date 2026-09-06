@@ -1,8 +1,13 @@
-const prompt = require("prompt-sync")();
 
-let chaine = prompt("donner un chaine de charachter :");
-let i = 0;
-while (chaine[i] != undefined) {
-  i++;
+function compterCaracteres(chaine){
+    let i = 0;
+    while (chaine[i] != undefined) {
+        i++;
+    }
+    return i
 }
-console.log("length is :", i);
+
+const prompt = require("prompt-sync")();
+let chaine = prompt("donner un chaine de charachter :");
+
+console.log("length is :", compterCaracteres(chaine));
